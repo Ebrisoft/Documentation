@@ -1,85 +1,322 @@
-<mxfile host="www.draw.io" modified="2019-10-30T16:22:33.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.145 Safari/537.36 Vivaldi/2.6.1566.49" etag="Hg65QoAaVCezwvNbYD4n" version="12.1.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-03T11:58:40.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.145 Safari/537.36 Vivaldi/2.6.1566.49" etag="bklGUnwHDw_vpnhikhV4" version="12.3.5" type="github" pages="1">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1372" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3844" dy="1654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="7baba1c4bc27f4b0-4" value="API Controller : ASP.NET Core" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" parent="1" vertex="1">
-          <mxGeometry x="540" y="40" width="100" height="620" as="geometry"/>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-18" value="GetPhonebook(username)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="pwg8B1UdKknLiTbZP-mi-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1300" y="259.9999999999998" as="sourcePoint"/>
+            <mxPoint x="1440" y="259.9999999999998" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-4" value="API Controller : ASP.NET Core&lt;br&gt;&lt;br&gt;LandlordController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="120" width="200" height="654" as="geometry"/>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-5" value="Abstractions : .NET Standard" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" parent="1" vertex="1">
-          <mxGeometry x="680" y="40" width="100" height="620" as="geometry"/>
+          <mxGeometry x="-60" y="120" width="200" height="620" as="geometry"/>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-6" value="Entity Framework Core: Persistance Abstraction" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" parent="1" vertex="1">
-          <mxGeometry x="820" y="40" width="100" height="620" as="geometry"/>
+        <mxCell id="7baba1c4bc27f4b0-6" value="Entity Framework Core: Persistence Abstraction&lt;br&gt;&lt;br&gt;LandlordRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" parent="1" vertex="1">
+          <mxGeometry x="160" y="120" width="160" height="620" as="geometry"/>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-7" value="SQL Server : Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" parent="1" vertex="1">
-          <mxGeometry x="960" y="40" width="100" height="620" as="geometry"/>
+          <mxGeometry x="880" y="120" width="160" height="620" as="geometry"/>
         </mxCell>
-        <mxCell id="GbbE25WO5oA3L3Y_lrUY-3" value="createAccount" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="GbbE25WO5oA3L3Y_lrUY-3" value="createAccount" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="450" y="140" as="sourcePoint"/>
-            <mxPoint x="590" y="140" as="targetPoint"/>
+            <mxPoint x="-320" y="240" as="sourcePoint"/>
+            <mxPoint x="-180" y="240" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GbbE25WO5oA3L3Y_lrUY-4" value="register(name, email, phone,&lt;br&gt;password)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.5;exitY=0.194;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-4" target="7baba1c4bc27f4b0-6">
+        <mxCell id="GbbE25WO5oA3L3Y_lrUY-4" value="register(name, email, phone, password)" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="7baba1c4bc27f4b0-4" target="7baba1c4bc27f4b0-6" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="590" y="168" as="sourcePoint"/>
-            <mxPoint x="729.5" y="168" as="targetPoint"/>
+            <mxPoint x="-155.5" y="281.5" as="sourcePoint"/>
+            <mxPoint x="-16" y="281.5" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-70" y="260"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GbbE25WO5oA3L3Y_lrUY-6" value="usermanager.create(&lt;br&gt;landlord, password)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="GbbE25WO5oA3L3Y_lrUY-6" value="create(landlord, password)" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1" target="pwg8B1UdKknLiTbZP-mi-47" source="7baba1c4bc27f4b0-6">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="870" y="179" as="sourcePoint"/>
-            <mxPoint x="1009.5" y="179" as="targetPoint"/>
+            <mxPoint x="780" y="280" as="sourcePoint"/>
+            <mxPoint x="470" y="280" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="460" y="280"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GbbE25WO5oA3L3Y_lrUY-7" value="IdentityResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.495;exitY=0.323;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="GbbE25WO5oA3L3Y_lrUY-7" value="IdentityResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1" target="7baba1c4bc27f4b0-6" source="pwg8B1UdKknLiTbZP-mi-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1010" y="219.76" as="sourcePoint"/>
-            <mxPoint x="870" y="219.76" as="targetPoint"/>
+            <mxPoint x="960" y="299.76" as="sourcePoint"/>
+            <mxPoint x="780" y="300" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="440" y="340"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GbbE25WO5oA3L3Y_lrUY-8" value="usermanager.addtoRole&lt;br&gt;landlord)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="GbbE25WO5oA3L3Y_lrUY-8" value="addtoRole(landlord, Landlord)" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1" target="pwg8B1UdKknLiTbZP-mi-47" source="7baba1c4bc27f4b0-6">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="870.5" y="260" as="sourcePoint"/>
-            <mxPoint x="1010" y="260" as="targetPoint"/>
+            <mxPoint x="820.5" y="361" as="sourcePoint"/>
+            <mxPoint x="960" y="361" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="510" y="360"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GbbE25WO5oA3L3Y_lrUY-9" value="IdentityResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.495;exitY=0.323;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-4">
+        <mxCell id="GbbE25WO5oA3L3Y_lrUY-9" value="IdentityResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" target="7baba1c4bc27f4b0-6" edge="1" source="pwg8B1UdKknLiTbZP-mi-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1010" y="299.76" as="sourcePoint"/>
-            <mxPoint x="870" y="299.76" as="targetPoint"/>
+            <mxPoint x="960" y="413" as="sourcePoint"/>
+            <mxPoint x="300" y="340" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="410" y="420"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GbbE25WO5oA3L3Y_lrUY-11" value="Signin(email, password)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="7baba1c4bc27f4b0-6">
+        <mxCell id="GbbE25WO5oA3L3Y_lrUY-11" value="signin(email, password)" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="590" y="340.5" as="sourcePoint"/>
-            <mxPoint x="870" y="340.22" as="targetPoint"/>
+            <mxPoint x="-180.67647058823513" y="460" as="sourcePoint"/>
+            <mxPoint x="419.5" y="460" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="110" y="460"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GbbE25WO5oA3L3Y_lrUY-12" value="signinManager.&lt;br&gt;PasswordSignIn(&lt;br&gt;username, password)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="GbbE25WO5oA3L3Y_lrUY-12" value="passwordSignIn(username, password)" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="870.5" y="360" as="sourcePoint"/>
-            <mxPoint x="1010" y="360" as="targetPoint"/>
+            <mxPoint x="419.3235294117653" y="480" as="sourcePoint"/>
+            <mxPoint x="779.5" y="480" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="750" y="480"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GbbE25WO5oA3L3Y_lrUY-13" value="ApplicationUser" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.495;exitY=0.323;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="GbbE25WO5oA3L3Y_lrUY-13" value="ApplicationUser" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1010" y="399.76" as="sourcePoint"/>
-            <mxPoint x="870" y="399.76" as="targetPoint"/>
+            <mxPoint x="959.5" y="520" as="sourcePoint"/>
+            <mxPoint x="780" y="520" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="900" y="520"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GbbE25WO5oA3L3Y_lrUY-14" value="ApplicationUser" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="7baba1c4bc27f4b0-4">
+        <mxCell id="GbbE25WO5oA3L3Y_lrUY-14" value="Roles" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="870" y="420" as="sourcePoint"/>
-            <mxPoint x="730" y="423.76" as="targetPoint"/>
+            <mxPoint x="419.5" y="560" as="sourcePoint"/>
+            <mxPoint x="-180.67647058823513" y="560" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="370" y="560"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GbbE25WO5oA3L3Y_lrUY-15" value="User" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.495;exitY=0.323;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="GbbE25WO5oA3L3Y_lrUY-15" value="Roles" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.495;exitY=0.323;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="590" y="439.76" as="sourcePoint"/>
-            <mxPoint x="450" y="439.76" as="targetPoint"/>
+            <mxPoint x="-180" y="579.76" as="sourcePoint"/>
+            <mxPoint x="-320" y="579.76" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-1" value="Creating an account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="50" width="1320" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-2" value="API Controller : ASP.NET Core&lt;br&gt;&lt;br&gt;PhonebookController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="120" width="200" height="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-3" value="Abstractions : .NET Standard" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="120" width="200" height="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-4" value="Entity Framework Core: Persistence Abstraction&lt;br&gt;&lt;br&gt;ContactRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="120" width="160" height="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-39" value="Contacts" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="pwg8B1UdKknLiTbZP-mi-4" target="pwg8B1UdKknLiTbZP-mi-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="340" as="sourcePoint"/>
+            <mxPoint y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-5" value="SQL Server : Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="120" width="160" height="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-6" value="getphonebook" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1160" y="239.99999999999977" as="sourcePoint"/>
+            <mxPoint x="1300" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-17" value="Getting a landlord phonebook" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="50" width="1140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-19" value="Entity Framework Core: Persistence Abstraction&lt;br&gt;&lt;br&gt;LandlordRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="120" width="160" height="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-20" value="GetFromUsername(username)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1720" y="279.9999999999998" as="sourcePoint"/>
+            <mxPoint x="1900" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-21" value="Users, include Houses" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1900" y="299.9999999999998" as="sourcePoint"/>
+            <mxPoint x="2260" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-29" value="Entity Framework Core: Persistence Abstraction&lt;br&gt;&lt;br&gt;UserManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="120" width="160" height="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-30" value="Landlord" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1" source="pwg8B1UdKknLiTbZP-mi-5" target="pwg8B1UdKknLiTbZP-mi-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2260" y="340" as="sourcePoint"/>
+            <mxPoint x="2180" y="340" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1960" y="320"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-31" value="IsInRoleAsync(landlord, Landlord)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1900" y="339.9999999999998" as="sourcePoint"/>
+            <mxPoint x="2080" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-32" value="true" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1" source="pwg8B1UdKknLiTbZP-mi-5" target="pwg8B1UdKknLiTbZP-mi-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2080" y="360" as="sourcePoint"/>
+            <mxPoint x="2000" y="360" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="2020" y="380"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-33" value="Users, include Roles" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2080" y="359.9999999999998" as="sourcePoint"/>
+            <mxPoint x="2270" y="360" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-35" value="Landlord" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1" target="pwg8B1UdKknLiTbZP-mi-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="400" as="sourcePoint"/>
+            <mxPoint x="1670" y="440" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1810" y="400"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-36" value="Contacts, include House, then include Landlord" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="pwg8B1UdKknLiTbZP-mi-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1720" y="418.9999999999998" as="sourcePoint"/>
+            <mxPoint x="2080" y="419" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-37" value="Contacts" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1" target="pwg8B1UdKknLiTbZP-mi-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2260" y="440" as="sourcePoint"/>
+            <mxPoint x="1900" y="440" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1960.5" y="440"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-40" value="GetAllTenants(username)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="pwg8B1UdKknLiTbZP-mi-19">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1300.5" y="479.9999999999998" as="sourcePoint"/>
+            <mxPoint x="1720" y="479.9999999999998" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-41" value="Users, include House, then include Landlord" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="pwg8B1UdKknLiTbZP-mi-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1900" y="499.9999999999998" as="sourcePoint"/>
+            <mxPoint x="2090" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-42" value="Tenants" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2260" y="520" as="sourcePoint"/>
+            <mxPoint x="1900" y="520" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1960.5" y="520"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-43" value="Tenants" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1" target="pwg8B1UdKknLiTbZP-mi-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="540" as="sourcePoint"/>
+            <mxPoint x="1820" y="540" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-45" value="Contacts" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="560" as="sourcePoint"/>
+            <mxPoint x="1160" y="560" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-46" value="Entity Framework Core: Persistence Abstraction&lt;br&gt;&lt;br&gt;SignInManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" vertex="1" parent="1">
+          <mxGeometry x="700" y="120" width="160" height="620" as="geometry"/>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-47" value="Entity Framework Core: Persistence Abstraction&lt;br&gt;&lt;br&gt;UserManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="160" height="620" as="geometry"/>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-48" value="IdentityResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="440" as="sourcePoint"/>
+            <mxPoint x="-180.67647058823513" y="440" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="170.5" y="440"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-49" value="Entity Framework Core: Persistence Abstraction&lt;br&gt;&lt;br&gt;SignInRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;size=80;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="160" height="620" as="geometry"/>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-51" value="Users" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="779" y="500" as="sourcePoint"/>
+            <mxPoint x="959.5" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-52" value="ApplicationUser" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="779.5" y="540" as="sourcePoint"/>
+            <mxPoint x="419.3235294117653" y="540" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="720" y="540"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-53" value="Users" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="600.1666666666665" y="300" as="sourcePoint"/>
+            <mxPoint x="960" y="300" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="820.5" y="300"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-54" value="IdentityResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="320" as="sourcePoint"/>
+            <mxPoint x="600.1666666666665" y="320" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="800.5" y="320"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-55" value="Users, include Roles" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="pwg8B1UdKknLiTbZP-mi-47" target="7baba1c4bc27f4b0-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="610.1666666666665" y="310" as="sourcePoint"/>
+            <mxPoint x="910" y="310" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="840" y="380"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwg8B1UdKknLiTbZP-mi-57" value="IdentityResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="7baba1c4bc27f4b0-7" target="pwg8B1UdKknLiTbZP-mi-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="609.5" y="430" as="sourcePoint"/>
+            <mxPoint x="249.66666666666652" y="430" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="780" y="400"/>
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
